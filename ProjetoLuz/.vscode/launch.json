@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/ContadeLuzEntity/bin/Debug/netcoreapp2.2/ContadeLuz.dll",
+            "program": "${workspaceFolder}/ContadeLuz/bin/Debug/netcoreapp2.2/ContadeLuz.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/ContadeLuzEntity",
+            "cwd": "${workspaceFolder}/ContadeLuz",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
