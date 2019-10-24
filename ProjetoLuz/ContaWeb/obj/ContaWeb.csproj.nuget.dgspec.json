@@ -1,0 +1,185 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaWeb\\ContaWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj",
+        "projectName": "ContaDomain",
+        "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaRepository\\ContaRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaRepository\\ContaRepository.csproj",
+        "projectName": "ContaRepository",
+        "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaRepository\\ContaRepository.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj": {
+                "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaWeb\\ContaWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaWeb\\ContaWeb.csproj",
+        "projectName": "ContaWeb",
+        "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaWeb\\ContaWeb.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaRepository\\ContaRepository.csproj": {
+                "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaRepository\\ContaRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

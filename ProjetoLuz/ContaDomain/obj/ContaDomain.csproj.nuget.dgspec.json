@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaDomain\\ContaDomain.csproj": {}
+    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaDomain\\ContaDomain.csproj": {
+    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaDomain\\ContaDomain.csproj",
+        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj",
         "projectName": "ContaDomain",
-        "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaDomain\\ContaDomain.csproj",
+        "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj",
         "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaDomain\\obj\\",
+        "outputPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

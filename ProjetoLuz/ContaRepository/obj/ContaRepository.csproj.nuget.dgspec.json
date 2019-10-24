@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaRepository\\ContaRepository.csproj": {}
+    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaRepository\\ContaRepository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaDomain\\ContaDomain.csproj": {
+    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaDomain\\ContaDomain.csproj",
+        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj",
         "projectName": "ContaDomain",
-        "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaDomain\\ContaDomain.csproj",
+        "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj",
         "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaDomain\\obj\\",
+        "outputPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaRepository\\ContaRepository.csproj": {
+    "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaRepository\\ContaRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaRepository\\ContaRepository.csproj",
+        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaRepository\\ContaRepository.csproj",
         "projectName": "ContaRepository",
-        "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaRepository\\ContaRepository.csproj",
+        "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaRepository\\ContaRepository.csproj",
         "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaRepository\\obj\\",
+        "outputPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaDomain\\ContaDomain.csproj": {
-                "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\LuzImovel\\ContaDomain\\ContaDomain.csproj"
+              "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj": {
+                "projectPath": "C:\\Users\\Felipe\\Desktop\\lpc-2019\\lpc-2019\\ProjetoOk\\ContaDomain\\ContaDomain.csproj"
               }
             }
           }
@@ -102,6 +102,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             }
           },
           "imports": [

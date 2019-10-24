@@ -11,5 +11,6 @@ namespace ContaRepository.Data
 
             }
         public DbSet<Conta> contas {get; set;}
+        public DbSet<Imovel> Imoveis {get; set;}  
     }
 }
