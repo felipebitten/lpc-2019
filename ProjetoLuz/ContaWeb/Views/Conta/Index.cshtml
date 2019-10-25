@@ -22,6 +22,7 @@
             </tr>
         </thead>
 
+
         @foreach(var item in Model)
         {
             <tr>
@@ -58,16 +59,21 @@
                     <th>Cidade</th>
                 </tr>
             </thead>
+            @if (ViewBag.Maximo != null)
+            {
+
                 <tr>
                     <td>@ViewBag.Maximo.id</td>
-                    <td>@ViewBag.Maximo.DataLeitura</td>
-                    <td>@ViewBag.Maximo.NumeroLeitura</td>
-                    <td>@ViewBag.Maximo.Qtdkw</td>
-                    <td>@ViewBag.Maximo.ValorAPagar</td>
-                    <td>@ViewBag.Maximo.DataPagamento</td>
-                    <td>@ViewBag.Maximo.MediaConsumo</td>
+                    <td>@ViewBag.Maximo.dataLeitura</td>
+                    <td>@ViewBag.Maximo.numeroLeitura</td>
+                    <td>@ViewBag.Maximo.qtdKw</td>
+                    <td>@ViewBag.Maximo.valorConta</td>
+                    <td>@ViewBag.Maximo.dataPagamento</td>
+                    <td>@ViewBag.Maximo.mediaConsumo</td>
                     <td>@ViewBag.Maximo.imovel.Cidade</td>
                 </tr>
+                 //your code   
+            }
         </table>
         </div>
         <div class="col-sm-12">
@@ -86,14 +92,17 @@
                 </tr>
             </thead>
                 <tr>
+                    @if (ViewBag.Minimo != null)
+                    {
                     <td>@ViewBag.Minimo.id</td>
-                    <td>@ViewBag.Minimo.DataLeitura</td>
-                    <td>@ViewBag.Minimo.NumeroLeitura</td>
-                    <td>@ViewBag.Minimo.Qtdkw</td>
-                    <td>@ViewBag.Minimo.ValorAPagar</td>
-                    <td>@ViewBag.Minimo.DataPagamento</td>
-                    <td>@ViewBag.Minimo.MediaConsumo</td>
+                    <td>@ViewBag.Minimo.dataLeitura</td>
+                    <td>@ViewBag.Minimo.numeroLeitura</td>
+                    <td>@ViewBag.Minimo.qtdKw</td>
+                    <td>@ViewBag.Minimo.valorConta</td>
+                    <td>@ViewBag.Minimo.dataPagamento</td>
+                    <td>@ViewBag.Minimo.mediaConsumo</td>
                     <td>@ViewBag.Minimo.imovel.Cidade</td>
+                    }
                 </tr>
         </table>
         </div>   
