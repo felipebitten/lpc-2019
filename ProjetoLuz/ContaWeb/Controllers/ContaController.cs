@@ -20,10 +20,10 @@ namespace ContaWeb.Controllers
 
         public IActionResult Index()
         {
-            var listContas = repository.Getall();
+            var conta = repository.Getall();
             ViewBag.Maximo = repository.Maior();
             ViewBag.Minimo = repository.Menor();
-            return View(listContas);
+            return View(conta);
         }
 
         public IActionResult Create()

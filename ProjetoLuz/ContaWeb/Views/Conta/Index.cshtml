@@ -2,7 +2,7 @@
 
     
 </br></br>
-<a href="Contas/Create" class="btn btn-primary">Nova Conta</a>
+<a href="Conta/Create" class="btn btn-primary">Nova Conta</a>
 </br></br>
 
 <div class="container">
@@ -16,6 +16,7 @@
                 <th>Valor Conta</th>
                 <th>Data Pagamento</th>
                 <th>Media de Consumo</th>
+                <th>Cidade</th>
                 <th></th>
                 <th></th>
             </tr>
@@ -33,18 +34,18 @@
                 <td>@item.mediaConsumo</td>
                 <td>@item.imovel.Cidade</td>
                 <td><a class="btn btn-danger"
-                    href="Contas/Delete/@item.id">Delete</a> </td>
+                    href="Conta/Delete/@item.id">Delete</a> </td>
                 <td><a class="btn btn-primary" 
-                    href="Contas/Edit/@item.id">Editar</a> </td>
+                    href="Conta/Edit/@item.id">Editar</a> </td>
             </tr>
         }
     </table>
+    <br>
+    <hr>  
 </div>
-<br>
-<hr>
-    <h3> Maior Consumo </h3>
-    <div class="container">
-        <table class="table">
+        <div class="col-sm-12">
+            <h3>Maior Consumo</h3>
+            <table class="table table-striped table-bordered">
             <thead>
                 <tr>
                     <th>Id</th>
@@ -54,27 +55,24 @@
                     <th>Valor Conta</th>
                     <th>Data Pagamento</th>
                     <th>Media de Consumo</th>
-                    <th></th>
-                    <th></th>
+                    <th>Cidade</th>
                 </tr>
             </thead>
                 <tr>
                     <td>@ViewBag.Maximo.id</td>
-                    <td>@ViewBag.Maximo.dataLeitura</td>
-                    <td>@ViewBag.Maximo.numeroLeitura</td>
-                    <td>@ViewBag.Maximo.qtdKw</td>
-                    <td>@ViewBag.Maximo.valorConta</td>
-                    <td>@ViewBag.Maximo.dataPagamento</td>
-                    <td>@ViewBag.Maximo.mediaConsumo</td>
+                    <td>@ViewBag.Maximo.DataLeitura</td>
+                    <td>@ViewBag.Maximo.NumeroLeitura</td>
+                    <td>@ViewBag.Maximo.Qtdkw</td>
+                    <td>@ViewBag.Maximo.ValorAPagar</td>
+                    <td>@ViewBag.Maximo.DataPagamento</td>
+                    <td>@ViewBag.Maximo.MediaConsumo</td>
                     <td>@ViewBag.Maximo.imovel.Cidade</td>
                 </tr>
         </table>
-    </div>
-<br>
-<hr>
-     <h3> Menor Consumo </h3>
-    <div class="container">
-        <table class="table">
+        </div>
+        <div class="col-sm-12">
+            <h3>Menor Consumo</h3>
+            <table class="table table-striped table-bordered">
             <thead>
                 <tr>
                     <th>Id</th>
@@ -84,19 +82,20 @@
                     <th>Valor Conta</th>
                     <th>Data Pagamento</th>
                     <th>Media de Consumo</th>
-                    <th></th>
-                    <th></th>
+                    <th>Cidade</th>
                 </tr>
             </thead>
                 <tr>
                     <td>@ViewBag.Minimo.id</td>
-                    <td>@ViewBag.Minimo.dataLeitura</td>
-                    <td>@ViewBag.Minimo.numeroLeitura</td>
-                    <td>@ViewBag.Minimo.qtdKw</td>
-                    <td>@ViewBag.Minimo.valorConta</td>
-                    <td>@ViewBag.Minimo.dataPagamento</td>
-                    <td>@ViewBag.Minimo.mediaConsumo</td>
+                    <td>@ViewBag.Minimo.DataLeitura</td>
+                    <td>@ViewBag.Minimo.NumeroLeitura</td>
+                    <td>@ViewBag.Minimo.Qtdkw</td>
+                    <td>@ViewBag.Minimo.ValorAPagar</td>
+                    <td>@ViewBag.Minimo.DataPagamento</td>
+                    <td>@ViewBag.Minimo.MediaConsumo</td>
                     <td>@ViewBag.Minimo.imovel.Cidade</td>
                 </tr>
         </table>
-    </div>
+        </div>   
+    </div> 
+</div>

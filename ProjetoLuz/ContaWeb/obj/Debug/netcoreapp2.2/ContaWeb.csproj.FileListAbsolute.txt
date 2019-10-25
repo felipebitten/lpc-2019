@@ -32,6 +32,6 @@ C:\Users\Felipe\Desktop\lpc-2019\lpc-2019\ProjetoOk\ContaWeb\obj\Debug\netcoreap
 C:\Users\Felipe\Desktop\lpc-2019\lpc-2019\ProjetoOk\ContaWeb\obj\Debug\netcoreapp2.2\ContaWeb.csproj.CopyComplete
 C:\Users\Felipe\Desktop\lpc-2019\lpc-2019\ProjetoOk\ContaWeb\obj\Debug\netcoreapp2.2\ContaWeb.dll
 C:\Users\Felipe\Desktop\lpc-2019\lpc-2019\ProjetoOk\ContaWeb\obj\Debug\netcoreapp2.2\ContaWeb.pdb
-C:\Users\Felipe\Desktop\lpc-2019\lpc-2019\ProjetoOk\ContaWeb\obj\Debug\netcoreapp2.2\Razor\Views\Contas\Create.g.cshtml.cs
-C:\Users\Felipe\Desktop\lpc-2019\lpc-2019\ProjetoOk\ContaWeb\obj\Debug\netcoreapp2.2\Razor\Views\Contas\Edit.g.cshtml.cs
-C:\Users\Felipe\Desktop\lpc-2019\lpc-2019\ProjetoOk\ContaWeb\obj\Debug\netcoreapp2.2\Razor\Views\Contas\Index.g.cshtml.cs
+C:\Users\Felipe\Desktop\lpc-2019\lpc-2019\ProjetoOk\ContaWeb\obj\Debug\netcoreapp2.2\Razor\Views\Conta\Create.g.cshtml.cs
+C:\Users\Felipe\Desktop\lpc-2019\lpc-2019\ProjetoOk\ContaWeb\obj\Debug\netcoreapp2.2\Razor\Views\Conta\Edit.g.cshtml.cs
+C:\Users\Felipe\Desktop\lpc-2019\lpc-2019\ProjetoOk\ContaWeb\obj\Debug\netcoreapp2.2\Razor\Views\Conta\Index.g.cshtml.cs

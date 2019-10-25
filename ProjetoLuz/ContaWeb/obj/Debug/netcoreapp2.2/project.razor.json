@@ -2991,18 +2991,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Contas\\Edit.cshtml",
-      "TargetPath": "Views\\Contas\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Contas\\Create.cshtml",
-      "TargetPath": "Views\\Contas\\Create.cshtml",
+      "FilePath": "Views\\Conta\\Index.cshtml",
+      "TargetPath": "Views\\Conta\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Conta\\Create.cshtml",
+      "TargetPath": "Views\\Conta\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -3011,8 +3011,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Contas\\Index.cshtml",
-      "TargetPath": "Views\\Contas\\Index.cshtml",
+      "FilePath": "Views\\Conta\\Edit.cshtml",
+      "TargetPath": "Views\\Conta\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],
